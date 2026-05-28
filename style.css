@@ -1,1 +1,25 @@
+body{
+text-align:center;
+font-family:Arial;
+background:green;
+color:white;
+}
 
+#goal{
+width:300px;
+height:160px;
+border:6px solid white;
+margin:auto;
+position:relative;
+background:#2e7d32;
+}
+
+#keeper{
+width:60px;
+height:60px;
+background:red;
+position:absolute;
+bottom:0;
+left:120px;
+transition:.3s;
+}
